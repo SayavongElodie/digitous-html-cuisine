@@ -1,10 +1,10 @@
 @font-face {
     font-family: "courgette";
-    src: url(/font/Courgette/Courgette-Regular.ttf);
+    src: url(../font/Courgette/Courgette-Regular.ttf);
 }
 @font-face {
     font-family: "oswald" ;
-    src: url(/font/Oswald/OFL.txt);
+    src: url(../font/Oswald/OFL.txt);
 }
 
 .courgette {
@@ -23,11 +23,12 @@
 .white {
     color: white;
 }
+
 /* header */
 
 
 header {
-    background-image: url(/img/header.jpg);
+    background-image: url(../img/header.jpg);
     height: 35rem;
 }
 
@@ -41,5 +42,84 @@ header {
 
 /* body */
 
+.article-size {
+    font-size: 1rem;
+}
 
+.flex-article {
+    display: block;
+}
 
+.article-1 {
+    display: flex;
+}
+
+.button-size {
+    width: 19rem;
+}
+
+.flex-icone {
+    display: flex;
+}
+
+.space {
+    margin-right: 1.5rem;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.none-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.flex-footer {
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.border {
+    border-color: white;
+}
+
+.footer-form {
+    width: 15rem;
+
+}
+
+.form-end {
+    display: flex;
+}
+
+.icone-2 {
+    padding: 0.2rem;
+    background-color: white;
+}
+
+.flex-icone {
+    display: block;
+    align-items: center;
+}
+
+.white-icone {
+    display: flex;
+}
