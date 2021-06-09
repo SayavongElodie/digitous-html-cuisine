@@ -1,0 +1,15 @@
+.bck-transparant {
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 60rem;
+    text-align: center;
+}
+
+.header3 {
+    background-image: url(../img/articles/suzette/suzette-header.jpg);
+    height: 35rem;
+}
+
+.container1 {
+    display: flex;
+    border-bottom-color: rgba(0, 0, 0, 1);
+}

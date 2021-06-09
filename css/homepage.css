@@ -2,17 +2,17 @@
     font-family: "courgette";
     src: url(../font/Courgette/Courgette-Regular.ttf);
 }
-@font-face {
-    font-family: "oswald" ;
-    src: url(../font/Oswald/OFL.txt);
+/* @font-face {
+    font-family: "oswald";
+    src: url(../font/Oswald/OFL.txt) format(“txt”);
 }
-
+ */
 .courgette {
     font-family: "courgette";
 }
 
 .oswald {
-    font-family:"oswald";
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -20,11 +20,25 @@
     color: white;
 }
 
+.black {
+    color: black;
+}
+
+.black:hover {
+    color: black;
+}
+
+
 /* header */
 
 
 .header1 {
     background-image: url(../img/header.png);
+    height: 35rem;
+}
+
+.header2 {
+    background-image: url(../img/team/team.png);
     height: 35rem;
 }
 
