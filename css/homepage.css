@@ -15,10 +15,6 @@
     font-family:"oswald";
 }
 
-.bck-black {
-    background-color: black;
-    opacity: 0.5;
-}
 
 .white {
     color: white;
@@ -27,8 +23,8 @@
 /* header */
 
 
-header {
-    background-image: url(../img/header.jpg);
+.header1 {
+    background-image: url(../img/header.png);
     height: 35rem;
 }
 
@@ -38,6 +34,10 @@ header {
     display: block;
     align-items: center;
     justify-content: center;    
+}
+
+.border-color {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 /* body */
@@ -55,7 +55,7 @@ header {
 }
 
 .button-size {
-    width: 19rem;
+    width: 15rem;
 }
 
 .flex-icone {
@@ -71,7 +71,6 @@ header {
 .footer {
     display: flex;
     justify-content: space-evenly;
-    background-color:;
 }
 
 footer {
