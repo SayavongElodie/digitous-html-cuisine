@@ -31,7 +31,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav oswald">
-                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
                     <a class="nav-link" href="team.html">Equipe</a>
                     <a class="nav-link" href="blog.html">Blog</a>
                     <a class="nav-link" href="contact.html">Contact</a>                
@@ -51,7 +51,19 @@
 
     <!--main-->
 
-<div class="container-md pt-5 pb-5">
+<div class="container-md pt-5 pb-5 tflex">
+    <form class="form-width float-right">
+        <div class="mb-3">
+            <label for="search" class="form-label courgette">Recherche</label>
+            <input type="search" class="form-control button-size" id="search" aria-describedby="search" placeholder="Recherche...">
+            <button type="submit" class="btn button-size btn btn-outline-dark">Ok</button>
+        </div>
+        <div class="mb-3">
+            <label for="Newsletter" class="form-label courgette">Newsletter</label>
+            <input type="email" class="form-control button-size" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
+            <button type="submit" class="btn button-size btn btn-outline-dark">Ok</button>
+            </div>
+    </form>        
     <div class="top-content">
         <h3 class="courgette">Paella</h3>
         <div>
@@ -119,17 +131,73 @@
             <h4 class="courgette">Etape 14</h4>
             <p class="oswald">Couvrir, et prolongez la cuisson de 5 à 10 min, le riz doit avoir absorbé tout le jus tout en gardant une texture ferme</p>
         </div>
-        <form class="form-width">
-            <div class="mb-3">
-                <label for="search" class="form-label courgette">Recherche</label>
-                <input type="search" class="form-control button-size" id="search" aria-describedby="search" placeholder="Recherche...">
-                <button type="submit" class="btn button-size btn btn-outline-dark">Ok</button>
-            </div>
-            <div class="mb-3">
-                <label for="Newsletter" class="form-label courgette">Newsletter</label>
-                <input type="email" class="form-control button-size" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email...">
-                <button type="submit" class="btn button-size btn btn-outline-dark">Ok</button>
-                </div>
-        </form>
     </div>
 </div>
+
+<div class="container-md mb-5">
+    <div class="d-flex flex-row bd-highlight mb-3 mx-3 flex-relative">
+        <div class="p-2 bd-highlight">
+            <img src="../img/recipes/sponsored/dessert1.jpg" alt="dessert 1" width="300">
+            <p class="oswald bck-grey flex-absolut text-center">Lien sponsorisé</p>
+        </div>
+        <div class="p-2 bd-highlight ">
+            <img src="../img/recipes/sponsored/dessert2.jpg" alt="dessert 2" width="300">
+            <p class="oswald bck-grey flex-absolut text-center">Lien sponsorisé</p>
+        </div>
+        <div class="p-2 bd-highlight">
+            <img src="../img/recipes/sponsored/side1.jpg" alt="site 1" width="300">
+            <p class="oswald bck-grey flex-absolut text-center">Lien sponsorisé</p>
+        </div>
+      </div>
+</div>
+
+    <!--footer-->
+
+<footer>
+    <div class="footer pt-5 pb-5">
+        <div class="categories flex-footer">
+            <h4 class="courgette">Catégories</h4>
+            <ul class="oswald none-list">
+                <li><a href="#" class="white">Revues</a></li>
+                <li><a href="#" class="white">Recettes</a></li>
+                <li><a href="#" class="white">Découvertes</a></li>
+            </ul>
+        </div>
+
+        <div class="archives">
+            <h4 class="courgette">Archives</h4>
+            <ul class="oswald none-list">
+                <li><a href="#" class="white">2019</a></li>
+                <li><a href="#" class="white">2018</a></li>
+                <li><a href="#" class="white">2017</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-form">
+            <div class="form p-2 bd-highlight col-3">
+                <form>
+                    <div>
+                        <label for="exampleInputEmail1" class="form-label courgette">Newsletter</label>
+                        <div class="form-end">
+                            <input type="email" class="form-control button-size" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Recherche...">
+                            <button type="submit" class="btn button-size btn tn btn-black white border">S'inscrire</button>
+                        </div>  
+                    </div>
+                    <div class="icone flex-icone pt-3">
+                        <label for="exampleInputEmail1" class="form-label courgette">Partager</label>
+                        <div class="white-icone">
+                            <img class="icone-2" src="../img/icones/facebook.png" alt="facebook icone" width="19px" height="19px">
+                            <img class="ms-1 icone-2" src="../img/icones/instagram.png" alt="instagram icone" width="19px" height="19px">
+                            <img class="ms-1 icone-2" src="../img/icones/youtube.png" alt="youtube icone" width="19px" height="19px">
+                            <img class="ms-1 icone-2" src="../img/icones/twitter.png" alt="twitter icone" width="19px" height="19px">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+</footer>
+
+<script src="../js/bootstrap.js"></script>
+    
+</body>
+</html>
