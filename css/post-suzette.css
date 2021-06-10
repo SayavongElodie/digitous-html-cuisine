@@ -13,3 +13,79 @@
     display: flex;
     border-bottom-color: rgba(0, 0, 0, 1);
 }
+
+.fl::first-letter {
+    font-size: 5rem;
+    float: left;
+    color: rgba(128, 128, 128, 0.685);
+}
+
+.flex-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+.bako {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.antoine-flex {
+    display: flex;
+    align-items: center;
+}
+
+.body-size {
+    width: 30rem;
+}
+
+.p-size {
+    width: 18rem;
+}
+
+.container-antoine {
+    padding-left: rem;
+    padding-right: 10em;
+    display: flex;
+}
+
+.content-antoine{
+    padding-bottom: 5rem;
+/*     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+ */}
+
+ .textarea-size {
+    width: 15rem;
+ }
+
+ .fsize {
+    color: grey;
+}
+
+.form-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.dflex {
+    display: flex;
+    align-items: center;
+}
+
+.content-notice {
+    display: flex;
+    justify-content: center;
+
+    width: 71rem;
+}
+
+.opacity {
+    opacity: 0.3;
+    margin-left: 5rem;
+}

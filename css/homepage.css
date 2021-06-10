@@ -2,11 +2,11 @@
     font-family: "courgette";
     src: url(../font/Courgette/Courgette-Regular.ttf);
 }
-/* @font-face {
+@font-face {
     font-family: "oswald";
     src: url(../font/Oswald/OFL.txt) format(“txt”);
 }
- */
+
 .courgette {
     font-family: "courgette";
 }
