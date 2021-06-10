@@ -1,3 +1,8 @@
+.header1 {
+    background-image: url(../img/header.png);
+    height: 35rem;
+}
+
 .flex-flex {
     display: flex;
     justify-content: flex-end;
