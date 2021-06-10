@@ -1,0 +1,37 @@
+.header4 {
+    background-image: url(../img/recipes/paella/paella-header.png);
+    height: 35rem;
+}
+
+.preparation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 11rem;
+}
+
+.top-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredients, button {
+    margin-bottom: 0.3rem;
+}
+
+.ingredients {
+    width: 21%;
+}
+
+.recipe-content {
+    display: flex;
+}
+
+.step-recipe {
+    width: 60%;
+}
+
+.form-width {
+    width: 19%;
+}
